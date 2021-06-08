@@ -46,7 +46,8 @@ function DeletThis(dlt) {
 }
 
 function editThis(edit) {
-    var newValue = prompt("New Text")
+ 
+   var newValue=prompt("What You Want To Edit?")
     edit.parentNode.firstChild.nodeValue = newValue
     console.log(newValue)
 
